@@ -56,9 +56,9 @@ $ sudo su -
 ```
 [See this working example of config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
 
-## Firewall
+## 5 Firewall
 
-## Client
+## 6 Client
 ### Fedora 33
 
 ```
