@@ -47,7 +47,7 @@ Common Name is "**server**"
 # cp keys/* /config/auth/keys/
 ```
 
-## 4 Create config.gateway.json file in the controller
+## 4 Controller - Create config.gateway.json file
 ```
 $ ssh admin@CONTROLLER_IP
 $ sudo su -
