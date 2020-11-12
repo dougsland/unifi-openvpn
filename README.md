@@ -53,26 +53,6 @@ $ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/
 
 ## Firewall
 
-# Radius (Optional)
-
-1) Enable Radius (Optional if you are using only auth keys)
-
-   - Controller -> Settings -> Services -> Radius 
-
-   - Server tab
-     - Create secret
-     - Authentication Port: 1812
-     - AccountingPort: 1813
-     - Account Interim Interval: 600
-     - Tunnelled Reply: ON
-
-   - Users tab
-     - Name: YOUR_USERNAME
-     - Password: YOUR_PASSWORD
-     - Tunnel Type: 3- Layer Two Tunneling Protocol (L2TP)
-     - Tunnel Medium Type: 1- IPv4 (IP version 4)
-
-
 ## Client
 ### Fedora 33
 
@@ -117,6 +97,27 @@ NetworkManager-team-1.26.4-1.fc33.x86_64
 NetworkManager-wifi-1.26.4-1.fc33.x86_64
 NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
+
+## Radius (Optional)
+
+1) Enable Radius (Optional if you are using only auth keys)
+
+   - Controller -> Settings -> Services -> Radius 
+
+   - Server tab
+     - Create secret
+     - Authentication Port: 1812
+     - AccountingPort: 1813
+     - Account Interim Interval: 600
+     - Tunnelled Reply: ON
+
+   - Users tab
+     - Name: YOUR_USERNAME
+     - Password: YOUR_PASSWORD
+     - Tunnel Type: 3- Layer Two Tunneling Protocol (L2TP)
+     - Tunnel Medium Type: 1- IPv4 (IP version 4)
+
+
 
 
 ## Useful links
