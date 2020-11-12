@@ -61,10 +61,8 @@ cp keys/* /config/auth/keys/
 ```
 
 # Create config.gateway.json file in the controller
-```
-$ cd /srv/unifi/data/sites/default
+$ cd /srv/unifi/data/sites/default  
 $ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
-```
 
 # Radius (Optional)
 
