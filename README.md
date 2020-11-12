@@ -8,7 +8,7 @@ Steps how to configure openvpn in the Unifi
 
 ![](/png/controller/controller-enable-ssh-auth.png)
 
-## 2 Install easy-rsa in the SecurityGateway
+## 2 Security Gatewat - Install easy-rsa
 ```
 $ ssh admin@SECURITY_GATEWAY_IP
 $ sudo su -
@@ -16,7 +16,7 @@ $ sudo su -
 # sudo dpkg -i easy-rsa_2.2.2-1_all.deb
 ```
 
-## 3 Generate the client/server/ca keys
+## 3 Security Gateway - Generate the client/server/ca keys
 ### 3.1 CA
 Common Name is "**OpenVPN CA**"
 ```
