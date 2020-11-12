@@ -85,13 +85,13 @@ $ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/
 
 
 # Client
-Fedora 33
+## Fedora 33
 
 ```
 $ cat /etc/fedora-release 
 Fedora release 33 (Thirty Three)
 ```
-## Packages
+### Packages
 ```
 $ rpm -qa | grep NetworkManager
 NetworkManager-l2tp-gnome-1.8.2-2.fc33.x86_64
@@ -119,7 +119,7 @@ NetworkManager-wifi-1.26.4-1.fc33.x86_64
 NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
-## Network Manager Settings
+### Network Manager Settings
 
 # Useful links
 https://blog.configwizard.xyz/configuring-openvpn-on-a-unifi-security-gateway/
