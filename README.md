@@ -20,7 +20,6 @@ Steps how to configure openvpn in the Unifi
     - Controller -> Settings -> Site -> DEVICE AUTHENTICATION  
       [x] Enable SSH Authentication
 
-   See: [UniFi - Accounts and Passwords for Controller, Cloud Key and Othe Devices](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices)
 
 2) Install easy-rsa in the SecurityGateway
 ```
@@ -123,5 +122,6 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ### Network Manager Settings
 
 # Useful links
+[UniFi - Accounts and Passwords for Controller, Cloud Key and Othe Devices](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices)
 https://blog.configwizard.xyz/configuring-openvpn-on-a-unifi-security-gateway/  
 https://medium.com/server-guides/how-to-setup-an-openvpn-server-on-a-unifi-usg-e33ea2f6725d
