@@ -1,18 +1,4 @@
-- [unifi-openvpn](#unifi-openvpn)
-  * [Generate the client/server/ca keys](#generate-the-client-server-ca-keys)
-    + [CA](#ca)
-    + [Server](#server)
-    + [Client](#client)
-    + [Generate Diffie Hellman](#generate-diffie-hellman)
-    + [Copy the keys](#copy-the-keys)
-- [Create config.gateway.json file in the controller](#create-configgatewayjson-file-in-the-controller)
-- [Radius (Optional)](#radius--optional-)
-- [Client](#client-1)
-  * [Packages](#packages)
-  * [Network Manager Settings](#network-manager-settings)
-- [Useful links](#useful-links)
-
-# unifi-openvpn
+# Tutorial enable openvpn server in Unifi device
 Steps how to configure openvpn in the Unifi
 
 ## 1 Enable SSH auth
