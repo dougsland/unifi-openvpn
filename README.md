@@ -15,6 +15,7 @@
 # unifi-openvpn
 Steps how to configure openvpn in the Unifi
 
+## Enable SSH auth
 1) Enable in the controlle SSH authentication via Advanced Features
     - Controller -> Settings -> Site -> DEVICE AUTHENTICATION
       [x] Enable SSH Authentication
