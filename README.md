@@ -95,7 +95,13 @@ Fedora release 33 (Thirty Three)
 ```
 ### Network Manager Settings
 
- <img src="https://github.com/dougsland/unifi-openvpn/blob/main/png/NetworkManager/unifi_add_vpn_01.png" width="400" height="700">
+[](/png/NetworkManager/unifi_add_vpn_00.png)
+[](/png/NetworkManager/unifi_add_vpn_01.png)
+[](/png/NetworkManager/unifi_add_vpn_02.png)
+[](/png/NetworkManager/unifi_add_vpn_03.png)
+[](/png/NetworkManager/unifi_add_vpn_04.png)
+[](/png/NetworkManager/unifi_add_vpn_05.png)
+[](/png/NetworkManager/unifi_add_vpn_06.png)
 
 ### Packages
 ```
