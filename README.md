@@ -15,14 +15,14 @@
 # unifi-openvpn
 Steps how to configure openvpn in the Unifi
 
-## Enable SSH auth
+## 1 Enable SSH auth
 1) Enable in the controlle SSH authentication via Advanced Features
     - Controller -> Settings -> Site -> DEVICE AUTHENTICATION  
       [x] Enable SSH Authentication
 
 ![](/png/controller/controller-enable-ssh-auth.png)
 
-2) Install easy-rsa in the **SecurityGateway**
+## 2 Install easy-rsa in the SecurityGateway
 ```
 $ ssh admin@SECURITY_GATEWAY_IP
 $ sudo su -
@@ -30,8 +30,8 @@ $ sudo su -
 # sudo dpkg -i easy-rsa_2.2.2-1_all.deb
 ```
 
-## Generate the client/server/ca keys
-### CA
+## 3 Generate the client/server/ca keys
+### 3.1 CA
 Common Name is "**OpenVPN CA**"
 ```
 cd /usr/share/easy-rsa
@@ -40,28 +40,28 @@ cd /usr/share/easy-rsa
 ./build-ca
 ```
 
-### Server
+### 3.2 Server
 Common Name is "**server**"
 ```
 ./build-key-server server
 ```
 
-### Client
+### 3.3 Client
 ```
 ./build-key client
 ```
-### Generate Diffie Hellman
+### 3.4 Generate Diffie Hellman
 ```
 ./build-dh
 ```
 
-### Copy the keys
+### 3.5 Copy the keys
 ```
 mkdir /config/auth/keys/
 cp keys/* /config/auth/keys/
 ```
 
-# Create config.gateway.json file in the controller
+## 4 Create config.gateway.json file in the controller
 $ cd /srv/unifi/data/sites/default  
 $ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
 
@@ -87,14 +87,14 @@ $ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/
      - Tunnel Medium Type: 1- IPv4 (IP version 4)
 
 
-# Client
-## Fedora 33
+## Client
+### Fedora 33
 
 ```
 $ cat /etc/fedora-release 
 Fedora release 33 (Thirty Three)
 ```
-### Network Manager Settings
+#### Network Manager Settings
 
 ![](/png/NetworkManager/unifi_add_vpn_00.png)
 ![](/png/NetworkManager/unifi_add_vpn_01.png)
@@ -104,7 +104,7 @@ Fedora release 33 (Thirty Three)
 ![](/png/NetworkManager/unifi_add_vpn_05.png)
 ![](/png/NetworkManager/unifi_add_vpn_06.png)
 
-### Packages
+#### Packages
 ```
 $ rpm -qa | grep NetworkManager
 NetworkManager-l2tp-gnome-1.8.2-2.fc33.x86_64
@@ -133,7 +133,7 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
 
-# Useful links
+## Useful links
 [UniFi - Accounts and Passwords for Controller, Cloud Key and Othe Devices](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices)  
 https://blog.configwizard.xyz/configuring-openvpn-on-a-unifi-security-gateway/  
 https://medium.com/server-guides/how-to-setup-an-openvpn-server-on-a-unifi-usg-e33ea2f6725d
