@@ -64,6 +64,8 @@ cp keys/* /config/auth/keys/
 $ cd /srv/unifi/data/sites/default  
 $ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
 
+## Firewall
+
 # Radius (Optional)
 
 1) Enable Radius (Optional if you are using only auth keys)
