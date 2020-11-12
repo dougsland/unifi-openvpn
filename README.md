@@ -122,5 +122,5 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ### Network Manager Settings
 
 # Useful links
-https://blog.configwizard.xyz/configuring-openvpn-on-a-unifi-security-gateway/
+https://blog.configwizard.xyz/configuring-openvpn-on-a-unifi-security-gateway/  
 https://medium.com/server-guides/how-to-setup-an-openvpn-server-on-a-unifi-usg-e33ea2f6725d
