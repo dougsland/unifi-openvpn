@@ -1,0 +1,61 @@
+{
+ "firewall": {
+  "name": {
+   "WAN_LOCAL": {
+    "rule": {
+     "20": {
+      "action": "accept",
+      "description": "Allow OpenVPN clients in",
+      "destination": {
+       "port": "1194"
+      },
+      "log": "disable",
+      "protocol": "udp"
+     }
+    }
+   }
+  }
+ },
+ "interfaces": {
+  "openvpn": {
+   "vtun0": {
+    "encryption": "aes256",
+    "mode": "server",
+    "server": {
+     "push-route": "192.168.1.0/24",
+     "name-server": "192.168.1.10",
+     "subnet": "192.168.20.0/29"
+    },
+    "openvpn-option": [
+     "--keepalive 8 30",
+     "--cipher aes-256-cbc",
+     "--comp-lzo",
+     "--duplicate-cn",
+     "--user nobody --group nogroup",
+     "--verb 5",
+     "--proto udp",
+     "--port 1194",
+     "--push redirect-gateway def1",
+     "--push dhcp-option DNS 192.168.1.10"
+    ],
+    "tls": {
+     "ca-cert-file": "/config/auth/keys/ca.crt",
+     "cert-file": "/config/auth/keys/server.crt",
+     "dh-file": "/config/auth/keys/dh2048.pem",
+     "key-file": "/config/auth/keys/server.key"
+    }
+   }
+  }
+ },
+ "service": {
+  "nat": {
+   "rule": {
+    "5010": {
+     "description": "Masquerade for WAN",
+     "outbound-interface": "eth0",
+     "type": "masquerade"
+    }
+   }
+  }
+ }
+}
