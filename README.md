@@ -21,7 +21,7 @@ Steps how to configure openvpn in the Unifi
       [x] Enable SSH Authentication
 
 
-2) Install easy-rsa in the SecurityGateway
+2) Install easy-rsa in the **SecurityGateway**
 ```
 $ ssh admin@SECURITY_GATEWAY_IP
 $ sudo su -
