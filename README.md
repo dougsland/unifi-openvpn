@@ -4,7 +4,7 @@ Steps how to configure openvpn in the Unifi
 ## 1 Enable SSH auth
 1) Enable in the controlle SSH authentication via Advanced Features
     - Controller -> Settings -> Site -> DEVICE AUTHENTICATION  
-      [x] Enable SSH Authentication
+      [**x**] Enable SSH Authentication
 
 ![](/png/controller/controller-enable-ssh-auth.png)
 
@@ -20,7 +20,7 @@ $ sudo su -
 ### 3.1 CA
 Common Name is "**OpenVPN CA**"
 ```
-cd /usr/share/easy-rsa
+# cd /usr/share/easy-rsa
 . vars
 ./clean-all
 ./build-ca
@@ -29,22 +29,22 @@ cd /usr/share/easy-rsa
 ### 3.2 Server
 Common Name is "**server**"
 ```
-./build-key-server server
+# ./build-key-server server
 ```
 
 ### 3.3 Client
 ```
-./build-key client
+# ./build-key client
 ```
 ### 3.4 Generate Diffie Hellman
 ```
-./build-dh
+# ./build-dh
 ```
 
 ### 3.5 Copy the keys
 ```
-mkdir /config/auth/keys/
-cp keys/* /config/auth/keys/
+# mkdir /config/auth/keys/
+# cp keys/* /config/auth/keys/
 ```
 
 ## 4 Create config.gateway.json file in the controller
