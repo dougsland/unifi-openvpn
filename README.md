@@ -20,6 +20,7 @@ Steps how to configure openvpn in the Unifi
     - Controller -> Settings -> Site -> DEVICE AUTHENTICATION  
       [x] Enable SSH Authentication
 
+![](/png/controller/controller-enable-ssh-auth.png)
 
 2) Install easy-rsa in the **SecurityGateway**
 ```
