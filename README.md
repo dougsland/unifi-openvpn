@@ -93,6 +93,8 @@ $ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/
 $ cat /etc/fedora-release 
 Fedora release 33 (Thirty Three)
 ```
+### Network Manager Settings
+
 ### Packages
 ```
 $ rpm -qa | grep NetworkManager
@@ -121,7 +123,6 @@ NetworkManager-wifi-1.26.4-1.fc33.x86_64
 NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
-### Network Manager Settings
 
 # Useful links
 [UniFi - Accounts and Passwords for Controller, Cloud Key and Othe Devices](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices)
