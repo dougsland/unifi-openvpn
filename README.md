@@ -95,7 +95,7 @@ Fedora release 33 (Thirty Three)
 ```
 ### Network Manager Settings
 
-![](/png/NetworkManager/unifi_add_vpn_01.png)
+![](/png/NetworkManager/unifi_add_vpn_01.png){:height="50%" width="50%"}
 
 ### Packages
 ```
