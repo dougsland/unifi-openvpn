@@ -61,8 +61,10 @@ cp keys/* /config/auth/keys/
 ```
 
 # Create config.gateway.json file in the controller
+```
 $ cd /srv/unifi/data/sites/default
-$ vi [config.gateway.json](URL_HERE)
+$ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
+```
 
 # Radius (Optional)
 
@@ -87,8 +89,8 @@ $ vi [config.gateway.json](URL_HERE)
 # Client
 Fedora 33
 
-$ cat /etc/fedora-release 
 ```
+$ cat /etc/fedora-release 
 Fedora release 33 (Thirty Three)
 ```
 ## Packages
