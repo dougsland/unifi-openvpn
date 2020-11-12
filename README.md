@@ -48,8 +48,12 @@ cp keys/* /config/auth/keys/
 ```
 
 ## 4 Create config.gateway.json file in the controller
-$ cd /srv/unifi/data/sites/default  
-$ vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
+```
+$ ssh admin@CONTROLLER_IP
+$ sudo su -
+# cd /srv/unifi/data/sites/default  
+# vi [config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
+```
 
 ## Firewall
 
