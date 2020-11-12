@@ -1,4 +1,4 @@
-# Tutorial enable openvpn server in Unifi device
+# Tutorial: How to enable openvpn server in Unifi device?
 Steps how to configure openvpn in the Unifi
 
 ## 1 Enable SSH auth
