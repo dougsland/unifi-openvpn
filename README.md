@@ -140,6 +140,12 @@ NetworkManager-wifi-1.26.4-1.fc33.x86_64
 NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
+## Client using ovpn file (Optional)
+```
+# openvpn --client filename.ovpn
+```
+[See this example here]()
+
 ## Radius (Optional)
 
 1) Enable Radius (Optional if you are using only auth keys)
@@ -158,9 +164,6 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
      - Password: YOUR_PASSWORD
      - Tunnel Type: 3- Layer Two Tunneling Protocol (L2TP)
      - Tunnel Medium Type: 1- IPv4 (IP version 4)
-
-
-
 
 ## Useful links
 [UniFi - Accounts and Passwords for Controller, Cloud Key and Othe Devices](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices)  
