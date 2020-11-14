@@ -29,6 +29,9 @@ Steps how to configure openvpn in the Unifi
 ![](/png/controller/controller-enable-ssh-auth.png)
 
 ## 2 Security Gateway - Install easy-rsa
+
+Security Gateway login as **admin**
+
 ```
 $ ssh admin@SECURITY_GATEWAY_IP
 $ sudo su -
@@ -68,8 +71,11 @@ Common Name is "**server**"
 ```
 
 ## 4 Controller - Create config.gateway.json file
+
+Controller login as **root**
+
 ```
-$ ssh admin@CONTROLLER_IP
+$ ssh root@CONTROLLER_IP
 $ sudo su -
 # cd /srv/unifi/data/sites/default  
 # vi config.gateway.json
