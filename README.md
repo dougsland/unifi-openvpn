@@ -15,9 +15,9 @@
     + [Fedora 33](#fedora-33)
       - [Network Manager Settings](#network-manager-settings)
       - [Packages](#packages)
-  * [Android App](#android-app)
-  * [Client using ovpn file (Optional)](#client-using-ovpn-file--optional-)
-  * [Radius (Optional)](#radius--optional-)
+  * [Android App (Optional)](#android-app)
+  * [Client using ovpn file (Optional)](#client-using-ovpn-file)
+  * [Radius (Optional)](#radius--optional)
   * [Useful links](#useful-links)
 
 # Tutorial: How to enable openvpn server in Unifi device?
@@ -143,15 +143,23 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
 ## Android App
+
+Optional step.
+
 Use your [client.ovpn](https://raw.githubusercontent.com/dougsland/unifi-openvpn/main/client/ovpn/client.ovpn) with the [Android app](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
 
-## Client using ovpn file (Optional)
+## Client using ovpn file
+
+Optional step.
+
 ```
 # openvpn --config filename.ovpn
 ```
 [See this client.ovpn example](https://raw.githubusercontent.com/dougsland/unifi-openvpn/main/client/ovpn/client.ovpn)
 
-## Radius (Optional)
+## Radius
+
+Optional Step.
 
 1) Enable Radius (Optional if you are using only auth keys)
 
