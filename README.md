@@ -140,6 +140,9 @@ NetworkManager-wifi-1.26.4-1.fc33.x86_64
 NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
+## Android App (Optional)
+Use your client.ovpn with the [Android app](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
+
 ## Client using ovpn file (Optional)
 ```
 # openvpn --config filename.ovpn
@@ -164,9 +167,6 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
      - Password: YOUR_PASSWORD
      - Tunnel Type: 3- Layer Two Tunneling Protocol (L2TP)
      - Tunnel Medium Type: 1- IPv4 (IP version 4)
-
-## Android App (Optional)
-Use your client.ovpn with the [Android app](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
 
 ## Useful links
 [UniFi - Accounts and Passwords for Controller, Cloud Key and Othe Devices](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices)  
