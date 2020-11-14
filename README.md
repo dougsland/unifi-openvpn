@@ -57,6 +57,14 @@ $ sudo su -
 [See this working example of config.gateway.json](https://github.com/dougsland/unifi-openvpn/blob/main/CONTROLLER/srv/unifi/data/sites/default/config.gateway.json)
 
 ## 5 Firewall
+![](png/controller/firewall/unifi-firewall.png)
+
+## LAN IN
+![](png/controller/firewall/LAN_IN/unifi-firewall01.png)
+![](png/controller/firewall/LAN_IN/unifi-firewall02.png)
+![](png/controller/firewall/LAN_IN/unifi-firewall03.png)
+
+## LAN OUT
 
 ## 6 Client
 ### Fedora 33
