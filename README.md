@@ -17,7 +17,7 @@
       - [Packages](#packages)
   * [Android App (Optional)](#android-app)
   * [Client using ovpn file (Optional)](#client-using-ovpn-file)
-  * [Radius (Optional)](#radius--optional)
+  * [Radius (Optional)](#radius)
   * [Useful links](#useful-links)
 
 # Tutorial: How to enable openvpn server in Unifi device?
