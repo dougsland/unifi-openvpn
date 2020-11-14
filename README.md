@@ -144,7 +144,7 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 # openvpn --client filename.ovpn
 ```
-[See this example here]()
+[See this example here](https://raw.githubusercontent.com/dougsland/unifi-openvpn/main/client/ovpn/client.ovpn)
 
 ## Radius (Optional)
 
