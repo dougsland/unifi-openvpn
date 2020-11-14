@@ -15,6 +15,8 @@
     + [Fedora 33](#fedora-33)
       - [Network Manager Settings](#network-manager-settings)
       - [Packages](#packages)
+  * [Android App (Optional)](#android-app--optional-)
+  * [Client using ovpn file (Optional)](#client-using-ovpn-file--optional-)
   * [Radius (Optional)](#radius--optional-)
   * [Useful links](#useful-links)
 
