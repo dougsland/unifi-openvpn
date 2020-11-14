@@ -141,7 +141,7 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
 ## Android App (Optional)
-Use your client.ovpn with the [Android app](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
+Use your [client.ovpn](https://raw.githubusercontent.com/dougsland/unifi-openvpn/main/client/ovpn/client.ovpn) with the [Android app](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
 
 ## Client using ovpn file (Optional)
 ```
