@@ -16,7 +16,7 @@
       - [Network Manager Settings](#network-manager-settings)
       - [Packages](#packages)
   * [Android App (Optional)](#android-app)
-  * [Console client using ovpn file (Optional)](#client-using-ovpn-file)
+  * [Console client using ovpn file (Optional)](#console-client-using-ovpn-file)
   * [Radius (Optional)](#radius)
   * [Useful links](#useful-links)
 
