@@ -142,7 +142,7 @@ NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 
 ## Client using ovpn file (Optional)
 ```
-# openvpn --client filename.ovpn
+# openvpn --config filename.ovpn
 ```
 [See this client.ovpn example](https://raw.githubusercontent.com/dougsland/unifi-openvpn/main/client/ovpn/client.ovpn)
 
