@@ -16,7 +16,7 @@
       - [Network Manager Settings](#network-manager-settings)
       - [Packages](#packages)
   * [Android App (Optional)](#android-app)
-  * [Client using ovpn file (Optional)](#client-using-ovpn-file)
+  * [Console client using ovpn file (Optional)](#client-using-ovpn-file)
   * [Radius (Optional)](#radius)
   * [Useful links](#useful-links)
 
@@ -148,7 +148,7 @@ Optional step.
 
 Use your [client.ovpn](https://raw.githubusercontent.com/dougsland/unifi-openvpn/main/client/ovpn/client.ovpn) with the [Android app](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
 
-## Client using ovpn file
+## Console client using ovpn file
 
 Optional step.
 
