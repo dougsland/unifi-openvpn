@@ -65,6 +65,9 @@ $ sudo su -
 ![](png/controller/firewall/LAN_IN/unifi-firewall03.png)
 
 ## LAN OUT
+![](png/controller/firewall/LAN_OUT/unifi-firewall00.png)
+![](png/controller/firewall/LAN_OUT/unifi-firewall01.png)
+![](png/controller/firewall/LAN_OUT/unifi-firewall02.png)
 
 ## 6 Client
 ### Fedora 33
