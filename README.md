@@ -1,3 +1,23 @@
+- [Tutorial: How to enable openvpn server in Unifi device?](#tutorial--how-to-enable-openvpn-server-in-unifi-device-)
+  * [1 Enable SSH auth](#1-enable-ssh-auth)
+  * [2 Security Gateway - Install easy-rsa](#2-security-gateway---install-easy-rsa)
+  * [3 Security Gateway - Generate the client/server/ca keys](#3-security-gateway---generate-the-client-server-ca-keys)
+    + [3.1 CA](#31-ca)
+    + [3.2 Server](#32-server)
+    + [3.3 Client](#33-client)
+    + [3.4 Generate Diffie Hellman](#34-generate-diffie-hellman)
+    + [3.5 Copy the keys](#35-copy-the-keys)
+  * [4 Controller - Create config.gateway.json file](#4-controller---create-configgatewayjson-file)
+  * [5 Firewall](#5-firewall)
+  * [LAN IN](#lan-in)
+  * [LAN OUT](#lan-out)
+  * [6 Client](#6-client)
+    + [Fedora 33](#fedora-33)
+      - [Network Manager Settings](#network-manager-settings)
+      - [Packages](#packages)
+  * [Radius (Optional)](#radius--optional-)
+  * [Useful links](#useful-links)
+
 # Tutorial: How to enable openvpn server in Unifi device?
 Steps how to configure openvpn in the Unifi
 
