@@ -9,8 +9,8 @@
     + [3.5 Copy the keys](#35-copy-the-keys)
   * [4 Controller - Create config.gateway.json file](#4-controller---create-configgatewayjson-file)
   * [5 Firewall](#5-firewall)
-  * [LAN IN](#lan-in)
-  * [LAN OUT](#lan-out)
+    + [LAN IN](#lan-in)
+    + [LAN OUT](#lan-out)
   * [6 Client](#6-client)
     + [Fedora 33](#fedora-33)
       - [Network Manager Settings](#network-manager-settings)
@@ -79,12 +79,12 @@ $ sudo su -
 ## 5 Firewall
 ![](png/controller/firewall/unifi-firewall.png)
 
-## LAN IN
+### LAN IN
 ![](png/controller/firewall/LAN_IN/unifi-firewall01.png)
 ![](png/controller/firewall/LAN_IN/unifi-firewall02.png)
 ![](png/controller/firewall/LAN_IN/unifi-firewall03.png)
 
-## LAN OUT
+### LAN OUT
 ![](png/controller/firewall/LAN_OUT/unifi-lanout00.png)
 ![](png/controller/firewall/LAN_OUT/unifi-lanout01.png)
 ![](png/controller/firewall/LAN_OUT/unifi-lanout02.png)
