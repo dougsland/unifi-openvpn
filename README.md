@@ -15,7 +15,7 @@
     + [Fedora 33](#fedora-33)
       - [Network Manager Settings](#network-manager-settings)
       - [Packages](#packages)
-  * [Android App (Optional)](#android-app--optional-)
+  * [Android App](#android-app)
   * [Client using ovpn file (Optional)](#client-using-ovpn-file--optional-)
   * [Radius (Optional)](#radius--optional-)
   * [Useful links](#useful-links)
@@ -142,7 +142,7 @@ NetworkManager-wifi-1.26.4-1.fc33.x86_64
 NetworkManager-config-connectivity-fedora-1.26.4-1.fc33.noarch
 ```
 
-## Android App (Optional)
+## Android App
 Use your [client.ovpn](https://raw.githubusercontent.com/dougsland/unifi-openvpn/main/client/ovpn/client.ovpn) with the [Android app](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
 
 ## Client using ovpn file (Optional)
