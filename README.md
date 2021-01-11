@@ -103,6 +103,14 @@ $ sudo su -
 ```
 $ cat /etc/fedora-release 
 Fedora release 33 (Thirty Three)
+
+dnf install NetworkManager-l2tp \
+              NetworkManager-l2tp-gnome \
+              NetworkManager-strongswan-gnome \
+              NetworkManager-strongswan -y
+
+# systemctl restart NetworkManager
+
 ```
 #### Network Manager Settings
 
