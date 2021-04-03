@@ -15,7 +15,7 @@
     + [Fedora 33](#fedora-33)
       - [Network Manager Settings](#network-manager-settings)
       - [Packages](#packages)
-  * [Internet Providers]
+  * [Internet Providers (Modem to Security Gateway)](#Internet-Proviers)
     + [Comcast](#Comcast)
       + [Comcast Business](#Comcast-Business)
   * [Android App (Optional)](#android-app)
