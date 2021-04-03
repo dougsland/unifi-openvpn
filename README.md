@@ -28,6 +28,8 @@ Steps how to configure openvpn in the Unifi
 
 ## Internet Providers
 Feel free to contribute and add your local Internet Provider Settings.
+How it works? Connect the **Internet Provider modem into your Security Gateway device**.
+
 ### Comcast
 #### Comcast Business
 ![](png/comcast/comcast1.png)
