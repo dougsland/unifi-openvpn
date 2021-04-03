@@ -27,13 +27,17 @@
 Steps how to configure openvpn in the Unifi
 
 ## Internet Providers
-Feel free to contribute and add your local Internet Provider Settings.  
+Feel free to contribute via PullRequest adding your local Internet Provider Settings from any part of the world.  
 
 Please note: The tutorial assume users will connect the **Internet Provider modem into the Security Gateway device**  
 and use the others steps shown in this tutorial.
 
+
 ### Comcast
 #### Comcast Business
+It's recommended to **change the default password** for the admin of the modem: **cusadmin**
+The default passwords are: **highspeed** or **CantTouchThis** as [described here by comcast](https://business.comcast.com/help-and-support/internet/setup-manage-comcast-wifi-business-wireless-gateway/#:~:text=Go%20to%20http%3A%2F%2F10.1,highspeed%20or%20CantTouchThis%20for%20Password)
+
 ![](png/comcast/comcast1.png)
 ![](png/comcast/comcast2.png)
 ![](png/comcast/comcast3.png)
