@@ -1,4 +1,7 @@
 - [Tutorial: How to enable openvpn server in Unifi device?](#tutorial--how-to-enable-openvpn-server-in-unifi-device-)
+  * [0 Internet Providers (Modem to Security Gateway)](#Internet-Providers)
+    + [Comcast](#Comcast)
+      + [Comcast Business](#Comcast-Business)
   * [1 Enable SSH auth](#1-enable-ssh-auth)
   * [2 Security Gateway - Install easy-rsa](#2-security-gateway---install-easy-rsa)
   * [3 Security Gateway - Generate the client/server/ca keys](#3-security-gateway---generate-the-keys)
@@ -15,9 +18,6 @@
     + [Fedora 33](#fedora-33)
       - [Network Manager Settings](#network-manager-settings)
       - [Packages](#packages)
-  * [Internet Providers (Modem to Security Gateway)](#Internet-Proviers)
-    + [Comcast](#Comcast)
-      + [Comcast Business](#Comcast-Business)
   * [Android App (Optional)](#android-app)
   * [Console client using ovpn file (Optional)](#console-client-using-ovpn-file)
   * [Radius (Optional)](#radius)
@@ -25,6 +25,23 @@
 
 # Tutorial: How to enable openvpn server in Unifi device?
 Steps how to configure openvpn in the Unifi
+
+## Internet Providers
+Feel free to contribute and add your local Internet Provider Settings.
+### Comcast
+#### Comcast Business
+![](png/comcast/comcast1.png)
+![](png/comcast/comcast2.png)
+![](png/comcast/comcast3.png)
+![](png/comcast/comcast4.png)
+![](png/comcast/comcast5.png)
+![](png/comcast/comcast6.png)
+![](png/comcast/comcast7.png)
+![](png/comcast/comcast8.png)
+![](png/comcast/comcast9.png)
+![](png/comcast/comcast10.png)
+![](png/comcast/comcast11.png)
+
 
 ## 1 Enable SSH auth
 1) Enable in the controlle SSH authentication via Advanced Features
@@ -188,21 +205,6 @@ Optional Step.
      - Password: YOUR_PASSWORD
      - Tunnel Type: 3- Layer Two Tunneling Protocol (L2TP)
      - Tunnel Medium Type: 1- IPv4 (IP version 4)
-
-## Internet Providers
-### Comcast
-#### Comcast Business
-![](png/comcast/comcast1.png)
-![](png/comcast/comcast2.png)
-![](png/comcast/comcast3.png)
-![](png/comcast/comcast4.png)
-![](png/comcast/comcast5.png)
-![](png/comcast/comcast6.png)
-![](png/comcast/comcast7.png)
-![](png/comcast/comcast8.png)
-![](png/comcast/comcast9.png)
-![](png/comcast/comcast10.png)
-![](png/comcast/comcast11.png)
 
 ## Useful links
 [UniFi - Accounts and Passwords for Controller, Cloud Key and Othe Devices](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices)  
