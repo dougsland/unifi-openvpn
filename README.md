@@ -36,7 +36,7 @@ The tutorial assumes users will physically connect (i.e: RJ45 cables) the **Inte
 ### Comcast
 #### Comcast Business
 It's recommended to **change the default password** for the admin of the modem: **cusadmin**  
-The default passwords are: **highspeed** or **CantTouchThis** as [described here by comcast](https://business.comcast.com/help-and-support/internet/setup-manage-comcast-wifi-business-wireless-gateway/#:~:text=Go%20to%20http%3A%2F%2F10.1,highspeed%20or%20CantTouchThis%20for%20Password)
+The default passwords are: **highspeed** or **CantTouchThis** as [described by comcast](https://business.comcast.com/help-and-support/internet/setup-manage-comcast-wifi-business-wireless-gateway/#:~:text=Go%20to%20http%3A%2F%2F10.1,highspeed%20or%20CantTouchThis%20for%20Password)
 
 ![](png/comcast/comcast1.png)
 ![](png/comcast/comcast2.png)
